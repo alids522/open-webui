@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background -->
+    <color name="bg_primary">#0A0A0F</color>
+    <color name="bg_card">#111118</color>
+
+    <!-- Accent -->
+    <color name="accent_purple">#7C3AED</color>
+    <color name="accent_cyan">#06B6D4</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F0F5</color>
+    <color name="text_secondary">#8A8A9A</color>
+    <color name="text_muted">#55556A</color>
+
+    <!-- Status / Error -->
+    <color name="error">#EF4444</color>
+    <color name="success">#10B981</color>
+
+    <!-- Transparent -->
+    <color name="transparent">#00000000</color>
+</resources>

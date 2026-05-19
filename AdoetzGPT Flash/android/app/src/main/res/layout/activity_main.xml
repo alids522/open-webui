@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_primary"
+    tools:context=".MainActivity">
+
+    <!--
+      Full-screen WebView with proper inset handling.
+      paddingTop accounts for status bar; paddingBottom accounts for nav bar.
+      These are managed programmatically via WindowInsetsCompat.
+    -->
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="flash_webview"
+        android:overScrollMode="never"
+        android:scrollbarStyle="outsideOverlay"
+        android:hardwareAccelerated="true"
+        android:layerType="hardware" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

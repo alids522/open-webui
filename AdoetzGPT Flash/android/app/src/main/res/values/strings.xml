@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdoetzGPT Flash</string>
+    <string name="mic_permission_required">Microphone permission is required for voice conversations.</string>
+    <string name="voice_session_title">AdoetzGPT Flash — Voice Active</string>
+    <string name="voice_session_subtitle">Microphone is in use for live conversation</string>
+    <string name="voice_session_stop">Stop</string>
+    <string name="connecting">Connecting…</string>
+    <string name="setup_required">Backend Setup Required</string>
+</resources>

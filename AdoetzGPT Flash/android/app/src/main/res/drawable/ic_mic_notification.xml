@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Microphone icon for the VoiceSessionService notification.
+  Simple vector drawable to avoid requiring external resources.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#FFFFFF">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12,2C10.343,2 9,3.343 9,5L9,11C9,12.657 10.343,14 12,14C13.657,14 15,12.657 15,11L15,5C15,3.343 13.657,2 12,2Z"/>
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M17,11C17,13.761 14.761,16 12,16C9.239,16 7,13.761 7,11L5,11C5,14.526 7.611,17.449 11,17.931L11,21L13,21L13,17.931C16.389,17.449 19,14.526 19,11L17,11Z"/>
+</vector>

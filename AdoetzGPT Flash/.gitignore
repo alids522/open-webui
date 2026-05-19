@@ -1,0 +1,42 @@
+# Node
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+
+# Frontend build output
+frontend/build/
+frontend/dist/
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+*.apk
+*.aab
+*.keystore
+
+# Keystore / secrets
+keystore.jks
+keystore.properties
+
+# macOS
+.DS_Store
+**/.DS_Store
+._*
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Capacitor
+.capacitor/
+
+# Environment
+.env
+.env.local

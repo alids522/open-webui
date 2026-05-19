@@ -1,0 +1,20 @@
+{
+  "appId": "com.adoetz.gpt.flash",
+  "appName": "AdoetzGPT Flash",
+  "webDir": "frontend/build",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false,
+    "backgroundColor": "#000000",
+    "loggingBehavior": "none"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": false
+    }
+  }
+}

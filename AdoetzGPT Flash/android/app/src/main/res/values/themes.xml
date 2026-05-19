@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme: dark, edge-to-edge -->
+    <style name="Theme.AdoetzGPTFlash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Status bar transparent / dark icons -->
+        <item name="android:windowBackground">@color/bg_primary</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Edge-to-edge -->
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+
+        <!-- Material color overrides -->
+        <item name="colorPrimary">@color/accent_purple</item>
+        <item name="colorPrimaryVariant">@color/accent_cyan</item>
+        <item name="colorOnPrimary">@color/text_primary</item>
+        <item name="colorSecondary">@color/accent_cyan</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:colorBackground">@color/bg_primary</item>
+        <item name="colorError">@color/error</item>
+    </style>
+
+    <!-- Splash / Launch theme - shown briefly before MainActivity -->
+    <style name="Theme.AdoetzGPTFlash.Splash" parent="Theme.AdoetzGPTFlash">
+        <item name="android:windowBackground">@color/bg_primary</item>
+    </style>
+</resources>
